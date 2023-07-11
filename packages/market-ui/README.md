@@ -19,13 +19,13 @@
 ### 使用 pnpm 安装
 
 ```bash
-pnpm install @shopin/market-ui --save
+pnpm install @moz/market-ui --save
 ```
 
 ### 快速上手
 
 ```js
-import {Image,Banner,Coupon,GoodsList} from '@shopin/market-ui';
+import {Image,Banner,Coupon,GoodsList} from '@moz/market-ui';
 
 <Image :name="" :data="[]" :config="{}" />
 <Banner :name="" :data="[]" :config="{}" />

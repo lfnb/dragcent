@@ -13,7 +13,7 @@
 
 <script setup lang="ts">
 
-import {Image,TImageDataRow} from '@shopin/components'
+import {Image,TImageDataRow} from '@moz/components'
 
 const handleClick = (e:MouseEvent, item:TImageDataRow) => {
   alert(item.actionType)

@@ -12,7 +12,7 @@
 
 <script setup lang="ts">
 
-import {CouponPack, CouponPackProps,TCouponPackDataRow} from '@shopin/components';
+import {CouponPack, CouponPackProps,TCouponPackDataRow} from '@moz/components';
 
 const data2 = {
   data:[

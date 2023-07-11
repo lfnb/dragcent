@@ -15,7 +15,7 @@
 
 <script setup lang="ts">
 import {ref,reactive,computed} from 'vue';
-import { GoodsTag, ETabsPosition } from '@shopin/components';
+import { GoodsTag, ETabsPosition } from '@moz/components';
 
 
 const goodsData = [

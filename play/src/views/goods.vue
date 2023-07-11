@@ -22,7 +22,7 @@
 
 <script setup lang="ts">
 import {ref} from 'vue';
-import {GoodsList} from '@shopin/components';
+import {GoodsList} from '@moz/components';
 
 const data = {
   data:[

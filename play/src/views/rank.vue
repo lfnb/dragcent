@@ -11,7 +11,7 @@
 </template>
 
 <script setup lang="ts">
-import { Rank } from '@shopin/components';
+import { Rank } from '@moz/components';
 
 const rankData = {
   data: [

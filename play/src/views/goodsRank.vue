@@ -10,7 +10,7 @@
 
 <script setup lang="ts">
 import { ref, reactive, computed } from 'vue';
-import { GoodsRank } from '@shopin/components';
+import { GoodsRank } from '@moz/components';
 
 
 const goodsData = [

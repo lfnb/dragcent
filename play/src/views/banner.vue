@@ -15,7 +15,7 @@
 
 <script setup lang="ts">
 
-import {Banner,TBannerDataRow} from '@shopin/components'
+import {Banner,TBannerDataRow} from '@moz/components'
 
 const handleClick = (e:MouseEvent, item:TBannerDataRow) => {
   alert(item.actionType)

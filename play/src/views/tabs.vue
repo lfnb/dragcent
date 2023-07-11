@@ -39,7 +39,7 @@
 </template>
 
 <script setup lang="ts">
-import { Tabs, ETabsPosition,Rank,GoodsList } from '@shopin/components';
+import { Tabs, ETabsPosition,Rank,GoodsList } from '@moz/components';
 
 const handleTabClick = (data) => {
   console.log('data',data);

@@ -12,7 +12,7 @@
 
 <script setup lang="ts">
 
-import {TextAreaView } from '@shopin/components'
+import {TextAreaView } from '@moz/components'
 
 const data = {
   data:[

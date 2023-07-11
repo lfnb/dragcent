@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@shopin/components": "workspace:*",
+    "@moz/components": "workspace:*",
     "vant": "^4.0.3",
     "vconsole": "^3.15.0",
     "vue": "^3.2.45",

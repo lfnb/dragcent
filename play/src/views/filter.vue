@@ -11,7 +11,7 @@
 </template>
 
 <script setup lang="ts">
-import { FilterGoods } from '@shopin/components';
+import { FilterGoods } from '@moz/components';
 
 const handleConfirm = (res) => {
   console.log('res',res)

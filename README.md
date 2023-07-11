@@ -1,29 +1,26 @@
-# README #
+<!--
+ * @Author: liyafei
+ * @Date: 2023-07-11 14:09:10
+ * @Description: 
+-->
+## 活动页 UI 组件库
 
-This README would normally document whatever steps are necessary to get your application up and running.
 
-### What is this repository for? ###
+## 包管理工具
+    pnpm
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+## 代码组织方式
+    monorepo
+## 技术栈
 
-### How do I get set up? ###
+    vue3 + 
+    vant +
+    ts + 
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+## 项目运行
+```bash
+pnpm i
 
-### Contribution guidelines ###
+pnpm start
 
-* Writing tests
-* Code review
-* Other guidelines
-
-### Who do I talk to? ###
-
-* Repo owner or admin
-* Other community or team contact
+```

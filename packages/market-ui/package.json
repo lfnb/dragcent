@@ -1,6 +1,6 @@
 {
   "name": "@shopin/market-ui",
-  "version": "0.25.1",
+  "version": "0.0.1",
   "description": "",
   "main": "lib/index.js",
   "module": "es/index.mjs",

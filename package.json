@@ -1,5 +1,5 @@
 {
-  "name": "shopin-lego",
+  "name": "market-ui",
   "version": "1.0.0",
   "description": "<!--  * @Author: liyafei  * @Date: 2022-12-08 16:37:16  * @Description: -->",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://codeup.aliyun.com/shopin-tech/frontend/shopin-lego.git"
+    "url": "https://lingfang@bitbucket.org/lingfang/market-ui.git"
   },
   "keywords": [],
   "author": "",

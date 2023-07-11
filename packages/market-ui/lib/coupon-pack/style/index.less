@@ -1,0 +1,28 @@
+@import '../../style/lib.less';
+
+.s-coupon-pack{
+    display:flex;
+    flex-wrap: wrap;
+
+    &-box{
+        position: relative;
+    }
+    &-received{
+        position: absolute;
+        right: 5px;
+        top:5px;
+        width: 20%;
+    }
+    &-img{
+        width: 100%;
+        height: auto;
+        display: block;
+
+        &-placeholder{
+            height: 100px;
+            line-height: 100px;
+            text-align: center;
+            font-size: 40px;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+###
+ # @Author: liyafei
+ # @Date: 2022-12-21 11:27:02
+ # @Description: 
+### 
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+pnpm exec commitlint --config commitlint.config.js --edit "${1}"

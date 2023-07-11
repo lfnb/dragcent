@@ -1,0 +1,31 @@
+{
+  "name": "@shopin/market-ui",
+  "version": "0.25.1",
+  "description": "",
+  "main": "lib/index.js",
+  "module": "es/index.mjs",
+  "keywords": [
+    "运营活动组件库",
+    "vue3组件库"
+  ],
+  "author": "liyafei",
+  "license": "ISC",
+  "scripts": {
+    "release": "release-it"
+  },
+  "files": [
+    "es",
+    "lib"
+  ],
+  "peerDependencies": {
+    "vue": "^3.2.0"
+  },
+  "dependencies": {
+    "vant": "^4.0.3"
+  },
+  "devDependencies": {
+    "@release-it/conventional-changelog": "github:release-it/conventional-changelog",
+    "release-it": "^15.6.0"
+  },
+  "typings": "lib/index.d.ts"
+}

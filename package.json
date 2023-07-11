@@ -1,0 +1,45 @@
+{
+  "name": "shopin-lego",
+  "version": "1.0.0",
+  "description": "<!--  * @Author: liyafei  * @Date: 2022-12-08 16:37:16  * @Description: -->",
+  "main": "index.js",
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "prepare": "husky install",
+    "start": "pnpm -C play dev",
+    "build:market-ui": "pnpm clean:market-ui && pnpm -C packages/components build",
+    "publish:market-ui": "pnpm -C packages/market-ui release",
+    "clean:market-ui": "pnpm -C packages/components clean"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://codeup.aliyun.com/shopin-tech/frontend/shopin-lego.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "lint-staged": {
+    "*.{vue,js,ts,jsx,tsx}": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "pnpm": {
+    "peerDependencyRules": {
+      "ignoreMissing": [
+        "postcss"
+      ]
+    }
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^17.3.0",
+    "@commitlint/config-conventional": "^17.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.47.0",
+    "@typescript-eslint/parser": "^5.47.0",
+    "eslint": "^8.30.0",
+    "husky": "^8.0.2",
+    "lint-staged": "^13.1.0",
+    "typescript": "^4.9.4",
+    "vue": "^3.2.36"
+  }
+}

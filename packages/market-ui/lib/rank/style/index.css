@@ -1,0 +1,55 @@
+@import '/node_modules/vant/lib/index.css';
+@import '/node_modules/vant/lib/icon/index.css';
+.s-rank {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 34px;
+  line-height: 34px;
+  background-color: #fff;
+}
+.s-rank-vant-icon {
+  font-size: 12px !important;
+  color: #aaa;
+}
+.s-rank-cell {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.s-rank-cell.active .txt {
+  color: #ED7500;
+}
+.s-rank-cell.active .s-rank-icon.desc::after {
+  border-color: #ED7500 transparent transparent transparent;
+}
+.s-rank-cell.active .s-rank-icon.asc::before {
+  border-color: transparent transparent #ED7500 transparent;
+}
+.s-rank-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+.s-rank-icon::before {
+  content: ' ';
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 3px 3px 3px;
+  border-color: transparent transparent #aaa transparent;
+}
+.s-rank-icon::after {
+  content: ' ';
+  width: 0;
+  height: 0;
+  margin-top: 3px;
+  border-style: solid;
+  border-width: 3px 3px 0 3px;
+  border-color: #aaa transparent transparent transparent;
+}

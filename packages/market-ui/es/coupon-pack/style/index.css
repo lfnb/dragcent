@@ -1,0 +1,26 @@
+@import '/node_modules/vant/lib/index.css';
+@import '/node_modules/vant/lib/icon/index.css';
+.s-coupon-pack {
+  display: flex;
+  flex-wrap: wrap;
+}
+.s-coupon-pack-box {
+  position: relative;
+}
+.s-coupon-pack-received {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  width: 20%;
+}
+.s-coupon-pack-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.s-coupon-pack-img-placeholder {
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 40px;
+}

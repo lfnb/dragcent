@@ -1,0 +1,65 @@
+@import '/node_modules/vant/lib/index.css';
+@import '/node_modules/vant/lib/icon/index.css';
+.s-tabs-wrapper {
+  width: 100%;
+}
+.s-tabs-vertical {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.s-tabs-vertical-sidebar-wrapper {
+  width: 100px;
+}
+.s-tabs-vertical .van-sidebar {
+  width: 100px;
+}
+.s-tabs-vertical .van-sidebar-item {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 10px;
+  font-size: 14px;
+  background-color: #fff;
+}
+.s-tabs-vertical .van-sidebar-item--select:before {
+  background-color: #ED7500;
+}
+.s-tabs-vertical .s-rank {
+  height: 44px;
+}
+.s-tabs-vertical-sticky-rank .van-sticky--fixed {
+  right: 0;
+}
+.s-tabs-vertical-sticky-sidebar .van-sticky--fixed {
+  left: 0;
+}
+.s-tabs-vertical-right .s-tabs-vertical-sidebar-wrapper {
+  order: 2;
+}
+.s-tabs-vertical-right .van-sidebar-item--select:before {
+  left: auto;
+  right: 0;
+}
+.s-tabs-vertical-right .s-tabs-vertical-sticky-rank .van-sticky--fixed {
+  left: 0;
+}
+.s-tabs-vertical-right .s-tabs-vertical-sticky-sidebar .van-sticky--fixed {
+  right: 0;
+  left: auto;
+}
+.s-tabs-horizontal .van-tabs__line {
+  background-color: #ED7500;
+}
+.s-tabs-horizontal-bottom .van-tabs {
+  display: flex;
+  flex-direction: column;
+}
+.s-tabs-horizontal-bottom .van-tabs__content {
+  order: 1;
+}
+.s-tabs-horizontal-bottom .s-rank-box {
+  order: 2;
+}
+.s-tabs-horizontal-bottom .van-tabs__wrap {
+  order: 3;
+}

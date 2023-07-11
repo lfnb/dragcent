@@ -1,0 +1,14 @@
+@import '/node_modules/vant/lib/index.css';
+@import '/node_modules/vant/lib/icon/index.css';
+@import '/node_modules/vant/lib/swipe/index.css';
+@import '/node_modules/vant/lib/swipe-item/index.css';
+.s-textarea-view-html-item {
+  width: 100%;
+  overflow: hidden;
+}
+.s-textarea-view-html-item-empty {
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #aaa;
+}

@@ -1,0 +1,5 @@
+@import '/node_modules/vant/lib/index.css';
+@import '/node_modules/vant/lib/icon/index.css';
+.s-goods-tag-goods-list-wrapper {
+  margin-top: 10px;
+}

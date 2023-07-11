@@ -3,7 +3,7 @@
  * @Date: 2023-01-04 11:12:58
  * @Description: 
 -->
-<p align="center">shopin market-ui - A Vue.js 3 activity library based on vant</p>
+<p align="center">moz market-ui - A Vue.js 3 activity library based on vant</p>
 
   
 ## 特性

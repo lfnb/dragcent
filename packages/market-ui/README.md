@@ -19,7 +19,7 @@
 ### 使用 pnpm 安装
 
 ```bash
-pnpm install @moz/market-ui --save
+pnpm install moz-market-ui --save
 ```
 
 ### 快速上手

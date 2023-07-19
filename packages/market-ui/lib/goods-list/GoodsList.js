@@ -3,7 +3,6 @@ Object.defineProperty(exports, Symbol.toStringTag, { value: "Module" });
 const vue = require("vue");
 const create = require("../utils/create.js");
 require("./style/index.css");
-const empty = require("../assets/empty.png.js");
 const index$1 = require("../node_modules/.pnpm/vant@4.0.3_vue@3.2.36/node_modules/vant/es/list/index.js");
 const index$2 = require("../node_modules/.pnpm/vant@4.0.3_vue@3.2.36/node_modules/vant/es/empty/index.js");
 const index$3 = require("../node_modules/.pnpm/vant@4.0.3_vue@3.2.36/node_modules/vant/es/loading/index.js");
@@ -109,9 +108,7 @@ const GoodsList = /* @__PURE__ */ vue.defineComponent({
         "finished-text": "没有更多了"
       }, _isSlot(listEle) ? listEle : {
         default: () => [listEle]
-      }) : vue.createVNode(index$2.Empty, {
-        "image": empty
-      }, {
+      }) : vue.createVNode(index$2.Empty, null, {
         default: () => [vue.createTextVNode("没找到您要的内容")]
       }), props.loading && vue.createVNode("div", {
         "class": bem("loading")

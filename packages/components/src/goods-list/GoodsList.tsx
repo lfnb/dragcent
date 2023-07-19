@@ -131,7 +131,7 @@ export const GoodsList = defineComponent({
           {listEle.length > 0 ? (
             <List finished-text="没有更多了">{listEle}</List>
           ) : (
-            <Empty image={emptyImg}>没找到您要的内容</Empty>
+            <Empty>没找到您要的内容</Empty>
           )}
           {props.loading && (
             <div class={bem('loading')}>

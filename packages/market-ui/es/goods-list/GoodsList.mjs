@@ -1,7 +1,6 @@
 import { defineComponent, ref, watch, createVNode, createTextVNode, isVNode } from "vue";
 import { createNamespace } from "../utils/create.mjs";
 import "./style/index.css";
-import emptyImg from "../assets/empty.png.mjs";
 import { List } from "../node_modules/.pnpm/vant@4.0.3_vue@3.2.36/node_modules/vant/es/list/index.mjs";
 import { Empty } from "../node_modules/.pnpm/vant@4.0.3_vue@3.2.36/node_modules/vant/es/empty/index.mjs";
 import { Loading } from "../node_modules/.pnpm/vant@4.0.3_vue@3.2.36/node_modules/vant/es/loading/index.mjs";
@@ -107,9 +106,7 @@ const GoodsList = /* @__PURE__ */ defineComponent({
         "finished-text": "没有更多了"
       }, _isSlot(listEle) ? listEle : {
         default: () => [listEle]
-      }) : createVNode(Empty, {
-        "image": emptyImg
-      }, {
+      }) : createVNode(Empty, null, {
         default: () => [createTextVNode("没找到您要的内容")]
       }), props.loading && createVNode("div", {
         "class": bem("loading")
